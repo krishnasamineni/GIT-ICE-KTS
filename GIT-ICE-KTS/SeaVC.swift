@@ -10,6 +10,7 @@ import UIKit
 
 class SeaVC: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +23,11 @@ class SeaVC: UIViewController {
     }
     
     
+    @IBAction func subit(sender: AnyObject) {
+        
+        lbl.text = "KT... PARAM"
+        
+    }
     
     
 
